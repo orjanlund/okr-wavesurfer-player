@@ -10,7 +10,7 @@ Player needs at least an audio URL "audioLink" to run.
 
 
 //Code to be included in parent component:
-
+`
 export default function ParentComponent() {
   const [playFromSeconds, setPlayFromSeconds] = useState(0);
   const [trig, setTrig] = useState(1)
@@ -25,3 +25,4 @@ export default function ParentComponent() {
       <div onClick={trigger} >PLAY FROM SECONDS BUTTON</div>
     </div>
   )
+`
